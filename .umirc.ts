@@ -14,5 +14,6 @@ export default defineConfig({
     { path: "/", component: "index" },
     { path: "/login", component: "login" },
   ],
+  publicPath: "./",
   npmClient: "yarn",
 });
