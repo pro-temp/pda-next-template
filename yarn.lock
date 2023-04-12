@@ -2016,6 +2016,11 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.4.0.tgz#74935d538e4df8893e47831a7aea362f295bcd39"
   integrity sha512-BJ9SxXux8zAg991UmT8slpwpsd31K1dHHbD3Ba4VzD+liLQ4WAMSxQp2d2ZPRPfN0jN2NPRowcSSoM7lCaF08Q==
 
+"@remix-run/router@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.5.0.tgz#57618e57942a5f0131374a9fdb0167e25a117fdc"
+  integrity sha512-bkUDCp8o1MvFO+qxkODcbhSqRa6P2GXgrGZVpt0dCXNW2HCSCqYI0ZoAqEOSAjRWmmlKcYgFvN4B4S+zo/f8kg==
+
 "@sinclair/typebox@^0.25.16":
   version "0.25.24"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.25.24.tgz#8c7688559979f7079aacaf31aa881c3aa410b718"
@@ -6642,6 +6647,13 @@ react-router@6.9.0:
   dependencies:
     "@remix-run/router" "1.4.0"
 
+react-router@^6.10.0:
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.10.0.tgz#230f824fde9dd0270781b5cb497912de32c0a971"
+  integrity sha512-Nrg0BWpQqrC3ZFFkyewrflCud9dio9ME3ojHCF/WLsprJVzkq3q3UeEhMCAW1dobjeGbWgjNn/PVF6m46ANxXQ==
+  dependencies:
+    "@remix-run/router" "1.5.0"
+
 react-sortable-hoc@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/react-sortable-hoc/-/react-sortable-hoc-2.0.0.tgz#f6780d8aa4b922a21f3e754af542f032677078b7"
@@ -7367,15 +7379,16 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-thea-mobile@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/thea-mobile/-/thea-mobile-0.0.1.tgz#0cb1bf8b7ab232b3592e90f017cea4dd6d1699ae"
-  integrity sha512-xbSjwRH+Q2Q/tsgKOd1HVsnH8HU1sfFh08rFQFMLHkHByRt7p0JKZ3rBhKhfMrg4l6iweTAHkfMgAbOrA78CBw==
+thea-mobile@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/thea-mobile/-/thea-mobile-0.0.4.tgz#3740c0c688e68d7044d5b49b3c00f8a59f1edbc3"
+  integrity sha512-bYITkVpTZ6mMYv9t5sIQq64m924S9bDDtTZoto28KjACfnqG+0oWHzK/QQ9pxpx/rIPxh+SHwMNN/u1RZgST/g==
   dependencies:
     ahooks "^3.7.4"
     antd-mobile "^5.28.0"
     antd-mobile-icons "^0.3.0"
     lodash "^4.17.21"
+    react-router "^6.10.0"
     react-router-dom "^6.9.0"
 
 thread-stream@^0.15.1:

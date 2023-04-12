@@ -13,7 +13,8 @@ export default defineConfig({
   routes: [
     { path: "/", component: "index" },
     { path: "/login", component: "login" },
+    { path: "/settings", component: "settings" },
   ],
-  publicPath: "./",
+  publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
   npmClient: "yarn",
 });

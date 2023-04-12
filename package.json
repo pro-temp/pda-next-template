@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "antd-mobile": "^5.28.2",
-    "thea-mobile": "^0.0.1",
+    "thea-mobile": "0.0.4",
     "umi": "^4.0.63"
   },
   "devDependencies": {

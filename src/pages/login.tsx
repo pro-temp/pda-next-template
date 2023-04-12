@@ -2,9 +2,9 @@ import { Login } from "thea-mobile";
 import { useModel } from "umi";
 
 const UserLogin = () => {
-  const { executeLogin, executeLogout } = useModel("userModel");
+  const { executeLogin } = useModel("userModel");
 
-  return <Login onLoad={executeLogout} request={executeLogin} />;
+  return <Login request={executeLogin} />;
 };
 
 export default UserLogin;
