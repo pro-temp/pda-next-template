@@ -2,6 +2,7 @@ import { defineConfig } from "umi";
 
 export default defineConfig({
   mfsu: false,
+  deadCode: {},
   plugins: [
     "thea-mobile/dist/cjs/plugins/styles",
     "thea-mobile/dist/cjs/plugins/layout",

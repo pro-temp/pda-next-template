@@ -1,16 +1,17 @@
+import QueryString from "qs";
 import { request } from "umi";
 
 export interface LoginParams {
-  user: string;
-  pwd: string;
+  username: string;
+  password: string;
 }
 export const login = (data: LoginParams) =>
-  request("/restful/login", {
+  request("/login/pda", {
     method: "post",
-    data,
+    data: QueryString.stringify(data),
   });
 
 export const logout = () =>
-  request("/restful/logout", {
+  request("/logout/pda", {
     method: "post",
   });

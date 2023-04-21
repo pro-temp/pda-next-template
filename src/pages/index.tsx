@@ -1,8 +1,9 @@
 import { Menu, PageTemplate, withAuth, withNavBar } from "thea-mobile";
+import { MenuItemProps } from "thea-mobile/dist/Grid/menu";
 
 const HomePage = () => {
   const PageMain = () => {
-    const menuList = [
+    const menuList: MenuItemProps[] = [
       {
         name: "skubind",
         description: "组盘",
