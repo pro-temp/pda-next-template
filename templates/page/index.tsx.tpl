@@ -34,7 +34,7 @@ const {{{name}}} = () => {
           props: {
             request: requestDevicePickerColumns,
             params: {
-              type: "In",
+              device_type: "Entrance",
             },
           },
         },

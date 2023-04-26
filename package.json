@@ -11,7 +11,7 @@
   "dependencies": {
     "antd-mobile": "^5.28.2",
     "qs": "^6.11.1",
-    "thea-mobile": "0.0.8",
+    "thea-mobile": "0.0.9",
     "umi": "^4.0.63"
   },
   "devDependencies": {

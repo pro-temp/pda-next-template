@@ -7391,10 +7391,10 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-thea-mobile@0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/thea-mobile/-/thea-mobile-0.0.8.tgz#bc323ffc952e61e6c7d14836e80e8e5509c68dcf"
-  integrity sha512-biCXkb0aR6OauoMFTC/Bzd4wahCN337ciqhMuMUXjbq1C29TptUnRVaUnbDIQHs9eWSiNBT+BLsouiHyZnGAQA==
+thea-mobile@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/thea-mobile/-/thea-mobile-0.0.9.tgz#f54a003198ed2c8234a062b1adf44496651c2e1f"
+  integrity sha512-iFzN9PMuyXLH25bZ2OxzEsYjqtBOP+LebN6N0KJNOoh4x+gDqj4+L14UX+oKiKJG/3MOv+Ig50pAyV4alr0slA==
   dependencies:
     "@babel/runtime" "^7.21.0"
     ahooks "^3.7.4"
