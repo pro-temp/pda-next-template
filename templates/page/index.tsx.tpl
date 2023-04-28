@@ -17,6 +17,7 @@ const {{{name}}} = () => {
           name: "house_code",
           key: "house_code",
           fieldType: "picker",
+          keepAlive: true,
           props: {
             request: requestHousePickerColumns,
             defaultFirst: true,
@@ -31,6 +32,7 @@ const {{{name}}} = () => {
           key: "device_code",
           fieldType: "picker",
           updateDeps: ["house_code"],
+          keepAlive: true,
           props: {
             request: requestDevicePickerColumns,
             params: {
